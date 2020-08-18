@@ -1,0 +1,114 @@
+
+.wp-core-ui .button.fy-view-invoice-button{
+	 content:"";
+	 background-image: url("img/invoice-download.svg");
+	 text-indent:-9999px;
+	 background-size: 20px;
+	 background-repeat:no-repeat;
+	 width:26px;
+	 height:26px!important;
+	 background-position:2px 2px;
+	 cursor:pointer;
+ }
+ 
+ .wp-core-ui .button.invoice-button{
+    background-image: url(../../images/create-afip.png) !important;
+    background-repeat: no-repeat no-repeat!important;
+    background-position: 5px center!important;
+    text-indent: 15px;
+	 cursor:pointer;
+ }
+ 
+  .wp-core-ui .button.fy-awaiting-button{
+	 content:"";
+	 background-image: url("img/clock.svg");
+	 text-indent:-9999px;
+	 background-size: 20px;
+	 background-repeat:no-repeat;
+	 width:26px;
+	 height:26px!important;
+	 background-position:2px 2px;
+ }
+
+	.get_cuit {
+    position: relative;
+    background: #3f8224;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+		font-size: 10px;
+    margin: 5px 0px;
+    width: 190px;
+	}
+	.guardar_csr {
+    width: 65px;
+    background: #3f8224;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+		font-size: 10px;
+    margin: 5px 0px;
+	}
+  /*#cert_out, #subir_cert {display:none;}*/
+  #cert_out_code {
+    background: white;
+    padding: 15px;
+    box-shadow: 2px 2px #888888;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textarea;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-image: initial;
+    padding: 2px;
+    
+  }
+
+  #cert_afip_respo {
+    box-shadow: 2px 2px #888888;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textarea;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-image: initial;
+    padding: 2px;
+}
